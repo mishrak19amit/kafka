@@ -1,4 +1,4 @@
-package com.gaurav.kafka;
+package com.amit.kafka;
 
 import java.util.concurrent.ExecutionException;
 
@@ -8,9 +8,9 @@ import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
 
-import com.gaurav.kafka.constants.IKafkaConstants;
-import com.gaurav.kafka.consumer.ConsumerCreator;
-import com.gaurav.kafka.producer.ProducerCreator;
+import com.amit.kafka.constants.IKafkaConstants;
+import com.amit.kafka.consumer.ConsumerCreator;
+import com.amit.kafka.producer.ProducerCreator;
 
 public class App {
 	public static void main(String[] args) {

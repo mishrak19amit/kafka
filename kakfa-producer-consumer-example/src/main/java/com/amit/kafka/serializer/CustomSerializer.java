@@ -1,11 +1,11 @@
-package com.gaurav.kafka.serializer;
+package com.amit.kafka.serializer;
 
 import java.util.Map;
 
 import org.apache.kafka.common.serialization.Serializer;
 
+import com.amit.kafka.pojo.CustomObject;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.gaurav.kafka.pojo.CustomObject;
 
 public class CustomSerializer implements Serializer<CustomObject> {
 

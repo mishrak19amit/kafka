@@ -1,11 +1,11 @@
-package com.gaurav.kafka.deserializer;
+package com.amit.kafka.deserializer;
 
 import java.util.Map;
 
 import org.apache.kafka.common.serialization.Deserializer;
 
+import com.amit.kafka.pojo.CustomObject;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.gaurav.kafka.pojo.CustomObject;
 
 public class CustomDeserializer implements Deserializer<CustomObject> {
 	@Override
